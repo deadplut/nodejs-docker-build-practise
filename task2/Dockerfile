@@ -7,4 +7,4 @@ WORKDIR /home/ilovedocker/app
 COPY hello.sh ./
 
 # Задаем скрипт hello.sh в качестве команды запуска образа
-ENTRYPOINT ["sh", "./hello.sh"]
+ENTRYPOINT ["sh", "hello.sh"]
